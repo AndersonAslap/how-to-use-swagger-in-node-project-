@@ -26,7 +26,7 @@ O bacana do swagger é que se dá para passar uma url onde será exibida a docum
 setup que é um arquivo json onde será escrita as documentações das rotas.
 
 ```js
-app.use("api-docs", swaggerUI.serve, swaggerUI.setup(swaggerFile));
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerFile));
 ```
 <br>
 
